@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script type="module" src="main.js"></script>
+	<title>ArtApp</title>
+</head>
+<body>
+	<header class="title-bar-header">
+		<h2>ArtApp</h2>
+		<form submit="setCanvasAttributes">
+			<label>Canvas Width</label>
+			<input
+				type="text"
+				name="width"
+				value=720
+				class="width"
+			>
+			<label>Canvas Height</label>
+			<input
+				type="text"
+				name="height"
+				value=620
+				class="height"
+			>
+			<label>Canvas Width</label>
+			<input
+				type="text"
+				name="cvsColor"
+				value="white"
+				class="cvsColor"
+			>
+			<button type="submit">Change</button>
+		</form>
+	</header>
+	<canvas id="canvas"></canvas>
+</body>
+</html>
